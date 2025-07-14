@@ -1,3 +1,4 @@
+
 import math
 
 class couleur:
@@ -24,7 +25,7 @@ class cercle(figure):
         self.couleur_du_cercle=couleur_du_cercle
         self.rayon_cercle=rayon_cercle
     def aire_cercle(self):
-        print(f" mon cerle as une couleur :{self.couleur_du_cercle} et l aire est :{math.pi*self.rayon_cercle**2}")
+        print(f" mon cerle as une couleur :{self.couleur_du_cercle} et l aire est :{math.pi*self.rayon_cercle**self.rayon_cercle}")
     def perimetre_cercle(self):
         print(math.pi*2*(self.rayon_cercle))  
         #text de m as fonccion
