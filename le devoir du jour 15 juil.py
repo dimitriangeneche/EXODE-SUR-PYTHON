@@ -1,11 +1,12 @@
-'''donenne_list= [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,19,20]
+#exo 
+donenne_list= [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,19,20]
 filtre = [n for n in donenne_list if  n % 3 == 0]
 don=[n**3  for n in filtre ]
-print(don)'''
+#mon aisses
+print(don)
 
-
-
-'''while True:
+#exo 2
+while True:
     try:
         tu_entre=int(input("entre un nomble premie nombles"))
         tu_entre1=int(input("entre le nomble deux"))
@@ -17,27 +18,14 @@ print(don)'''
         print("Erreur :  nomble n entre est pas correct recommense ")   
     except ZeroDivisionError:
         print("il n es pas divisible pas zero")
-        break'''
-'''def args(ok):
-    print("ok")
-def kawags(mutiplicateur=1):
-    print("ok")
-def somme_positifs():
-    def Parametre_non_nome(n1):
-        f
-    def parametre_optionnel(mutiplicateur=1):
-        f
-    def variable_posible(posible=[]):
-        f
-    def variable_nommes(v1=1,v2=3,v3=20):'''
+        break
 
-''' 
 with open("tre.txt","w")as fichier:
     fichier.write("1 , ")
      #mon aisser
 with open ("tre.txt","r") as fichier:
     dosie=fichier.read()
-    print(dosie) '''
+    print(dosie) 
 
 
 mon_texte="bien bien je suis ravis je suis  bien et toi tu es bien ravis pas possible"
