@@ -19,7 +19,7 @@ while True:
     except ZeroDivisionError:
         print("il n es pas divisible pas zero")
         break
-
+#exo 4
 with open("tre.txt","w")as fichier:
     fichier.write("1 , ")
      #mon aisser
@@ -27,7 +27,7 @@ with open ("tre.txt","r") as fichier:
     dosie=fichier.read()
     print(dosie) 
 
-
+#exo 5
 mon_texte="bien bien je suis ravis je suis  bien et toi tu es bien ravis pas possible"
 compteur_ok={}
 for mots in mon_texte.split():
